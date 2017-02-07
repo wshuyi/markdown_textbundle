@@ -43,7 +43,7 @@ def make_info_json(textbundle_export_dir):
 def main(argv):
     if len(argv) == 2:
         textbundle_export_dir = os.path.expanduser("~/Downloads/my_textbundle.textbundle")
-        local_repo_path = os.path.expanduser('~/Dropbox/Public/repo')
+        local_repo_path = os.path.expanduser('~/Downloads/repo')
         if os.path.exists(textbundle_export_dir):
             shutil.rmtree(textbundle_export_dir)
         os.makedirs(textbundle_export_dir)

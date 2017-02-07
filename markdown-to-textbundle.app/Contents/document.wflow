@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>/anaconda/bin/python /Users/wsy/Downloads/markdown-to-textbundle.app "$1" </string>
+					<string>python /Users/wsy/Downloads/markdown_textbundle/convert-markdown-to-local-repo-markdown.py "$1" &amp;&amp; python /Users/wsy/Downloads/markdown_textbundle/make_text_bundle_from_local_md.py ~/Downloads/temp.md</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -359,14 +359,14 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>7A03B519-6028-4ADB-8787-6C788D9192F2</key>
+		<key>3C1F3E63-C1EF-4180-B17D-1758DCE16160</key>
 		<dict>
 			<key>from</key>
 			<string>591CBC93-C5C6-4EC2-A36B-4906395D1B63 - 591CBC93-C5C6-4EC2-A36B-4906395D1B63</string>
 			<key>to</key>
 			<string>2674F7F4-6919-4A29-A5D5-086C3883E092 - 2674F7F4-6919-4A29-A5D5-086C3883E092</string>
 		</dict>
-		<key>7DE45B09-DE14-456D-B3D0-BACE5E89F5E7</key>
+		<key>E036CE97-F9BB-48C2-873B-9E048742F6FA</key>
 		<dict>
 			<key>from</key>
 			<string>2674F7F4-6919-4A29-A5D5-086C3883E092 - 2674F7F4-6919-4A29-A5D5-086C3883E092</string>
