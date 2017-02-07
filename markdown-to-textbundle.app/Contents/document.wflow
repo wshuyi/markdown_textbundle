@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>/anaconda/bin/python /Users/wsy/Dropbox/var/wsywork/code/markdown_textbundle/make_text_bundle_from_local_md.py "$1" </string>
+					<string>/anaconda/bin/python /Users/wsy/Downloads/markdown-to-textbundle.app "$1" </string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
